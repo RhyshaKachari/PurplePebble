@@ -1,0 +1,56 @@
+body {
+  /* background-image: url("https://www.marketplace.org/wp-content/uploads/2021/10/stockmarket.jpg?fit=2800%2C1575"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aqua;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_at {
+  margin-top: 100px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.new_at {
+  margin-top: 5vh;
+  font-size: 30px;
+}
+.main_at {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+.main_at img {
+  width: 22vh;
+  height: 20vh;
+  margin-left: 18px;
+}
+.p1_at {
+  height: 15vh;
+  width: 15vw;
+}
+.p2_at {
+  height: 20vh;
+  width: 13vw;
+}
+.p3_at {
+  height: 15vh;
+  width: 11vw;
+  color: white;
+}
+.a_at {
+  margin-inline: 40px;
+}
+.b_at {
+  margin-inline: 40px;
+}
+.c_at {
+  margin-inline: 40px;
+}

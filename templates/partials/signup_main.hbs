@@ -1,0 +1,36 @@
+<div class="container" id="container">
+  <!-- Sign Up Form -->
+  <div class="form-container sign-in-container">
+    <form action="/signup" method="post">
+      <h1 style="white-space: nowrap; font-size: 40px">Create Account</h1>
+      <input type="text" placeholder="Username" name="name" />
+      <input type="email" placeholder="Email" name="email" />
+      <input type="password" placeholder="Password" name="password" />
+      <input type="address" placeholder="Address" name="address" />
+      <input type="number" placeholder="Pin Code" name="pincode" />
+      <button style="cursor: pointer;">Sign Up</button>
+    </form>
+  </div>
+
+  <!-- Sign In Text -->
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-right">
+        <h1>Hello, Dear Customer!</h1>
+        <p>
+          To stay connected with us, please login with your email ID and
+          Password after creating an account.<br />
+          Happy shopping!.
+        </p>
+        <a href="signin"><button
+            class="ghost"
+            id="signUp"
+            style="cursor: pointer;"
+          >Sign In</button></a>
+        <p>Already have an account ?
+          <br />
+          Click the above button to Sign In</p>
+      </div>
+    </div>
+  </div>
+</div>
